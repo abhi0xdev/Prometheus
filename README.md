@@ -2,14 +2,13 @@ Here is the full `README.md` file content in proper Markdown format. You can cop
 
 ---
 
-```markdown
-# 🚀 Prometheus + Grafana Docker Monitoring Setup
+# Prometheus + Grafana Docker Monitoring Setup
 
 This project provides a simple Docker Compose configuration to set up **Prometheus** and **Grafana** for monitoring containerized applications.
 
 ---
 
-## 🧱 Stack
+## Stack
 
 - **Prometheus**: Metrics collection and monitoring.
 - **Grafana**: Metrics visualization.
@@ -17,9 +16,7 @@ This project provides a simple Docker Compose configuration to set up **Promethe
 
 ---
 
-## 📁 Project Structure
-
-```
+## Project Structure
 
 Prometheus/
 │
@@ -28,11 +25,7 @@ Prometheus/
 │   └── prometheus.yml
 └── README.md
 
-````
-
----
-
-## 🐳 Docker Compose Services
+## Docker Compose Services
 
 ### 🔹 Prometheus
 - **Port**: `9090`
@@ -45,7 +38,6 @@ Prometheus/
 - **Default login**: `admin / admin`
 - **Volumes**: Persists Grafana data for dashboards and datasources.
 
----
 
 ## ⚙️ How to Run
 
@@ -53,7 +45,6 @@ Prometheus/
    ```bash
    git clone <your-repo-url>
    cd Prometheus
-````
 
 2. **Start services**
 
