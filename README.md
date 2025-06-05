@@ -1,7 +1,3 @@
-Here is the full `README.md` file content in proper Markdown format. You can copy-paste it directly into your `README.md` file.
-
----
-
 # Prometheus + Grafana Docker Monitoring Setup
 
 This project provides a simple Docker Compose configuration to set up **Prometheus** and **Grafana** for monitoring containerized applications.
